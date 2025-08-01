@@ -42,7 +42,7 @@ public class ScpProximityChatHandler : CustomEventsHandler
         if (ev.Message.Channel != VoiceChatChannel.ScpChat)
             return;
 
-        if (!ReferenceHub.TryGetHubNetID(ev.Player.Connection.identity.netId, out ReferenceHub player))
+        if (!ReferenceHub.TryGetHubNetID(ev.Player.NetworkId, out ReferenceHub player))
             return;
 
         if (!ScpProximityChatModule.Config.AllowedRoles.Contains(player.roleManager.CurrentRole.RoleTypeId) || (ScpProximityChatModule.Config.ToggleChat && !ToggledPlayers.Contains(player)))
