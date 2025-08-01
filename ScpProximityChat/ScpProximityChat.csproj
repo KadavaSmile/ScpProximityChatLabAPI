@@ -32,6 +32,9 @@
 		<Reference Include="Assembly-CSharp-firstpass" Private="false" />
 		<Reference Include="Mirror" Publicize="true" Private="false" />
 		<Reference Include="Mirror.Components" Private="false" />
+		<Reference Include="Pooling">
+		  <HintPath>C:\Users\pisto\Desktop\SCPLocalServer\SCPSL_Data\Managed\Pooling.dll</HintPath>
+		</Reference>
 		<Reference Include="System" Private="false" />
 		<Reference Include="System.Core" Private="false" />
 		<Reference Include="System.Data" Private="false" />

@@ -12,7 +12,7 @@ public class ScpProximityChatModule : CustomEventsHandler
         base.OnServerRoundStarted();
         ScpProximityChatHandler.ToggledPlayers.Clear();
     }
-
+    public static Config Config { get; set; } = new Config();
     public override void OnPlayerChangingRole(PlayerChangingRoleEventArgs ev)
     {
         base.OnPlayerChangingRole(ev);
