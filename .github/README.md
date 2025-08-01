@@ -1,5 +1,5 @@
 <h1 align="center">ScpProximityChat</h1>
-<h6 align="center">Also known as ScpChatExtension, works for both Exiled and NWAPI</h6>
+<h6 align="center">Also known as ScpChatExtension, ported to work on LabAPI</h6>
 
 <div align="center">
 
@@ -17,3 +17,5 @@
 <h2>How to use?</h1>
 <h4>To switch between chats you gotta use the left ALT key, the NOCLIP one.</h4>
 </div>
+
+Original plugin by https://github.com/Jesus-QC
