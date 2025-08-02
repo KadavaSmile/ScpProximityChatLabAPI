@@ -55,7 +55,6 @@ public class ScpProximityChatHandler : CustomEventsHandler
 
     private static void SendProximityMessage(VoiceMessage msg)
     {
-        CL.Debug("sending prox message");
         foreach (ReferenceHub referenceHub in ReferenceHub.AllHubs)
         {
 
