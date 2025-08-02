@@ -22,7 +22,7 @@ public class ScpProximityChatHandler : CustomEventsHandler
         if (FpcNoclip.IsPermitted(ev.Player.ReferenceHub))
             return;
 
-        if (!ScpProximityChatModule.Config.AllowedRoles.Contains(ev.Player.Role.GetRoleBase().RoleTypeId))
+        if (!ScpProximityChatPlugin.Instance.Config.AllowedRoles.Contains(ev.Player.Role))
             return;
 
         if (!ToggledPlayers.Add(ev.Player.ReferenceHub))
